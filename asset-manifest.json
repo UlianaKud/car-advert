@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/car-advert/static/css/main.5eabeed7.css",
-    "main.js": "/car-advert/static/js/main.f0634ffc.js",
-    "static/css/706.f4923999.chunk.css": "/car-advert/static/css/706.f4923999.chunk.css",
+    "main.css": "/car-advert/static/css/main.39854d09.css",
+    "main.js": "/car-advert/static/js/main.bdf5f28f.js",
+    "static/css/706.29a0fe0b.chunk.css": "/car-advert/static/css/706.29a0fe0b.chunk.css",
     "static/js/706.c07899d1.chunk.js": "/car-advert/static/js/706.c07899d1.chunk.js",
-    "static/css/630.450af91e.chunk.css": "/car-advert/static/css/630.450af91e.chunk.css",
+    "static/css/630.255160d5.chunk.css": "/car-advert/static/css/630.255160d5.chunk.css",
     "static/js/630.56b868a8.chunk.js": "/car-advert/static/js/630.56b868a8.chunk.js",
-    "static/css/748.101a03de.chunk.css": "/car-advert/static/css/748.101a03de.chunk.css",
+    "static/css/748.28ca4c96.chunk.css": "/car-advert/static/css/748.28ca4c96.chunk.css",
     "static/js/748.32bcdb7d.chunk.js": "/car-advert/static/js/748.32bcdb7d.chunk.js",
     "static/js/757.06473a90.chunk.js": "/car-advert/static/js/757.06473a90.chunk.js",
     "static/media/brand-icons.svg": "/car-advert/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -16,6 +16,9 @@
     "static/media/icons.ttf": "/car-advert/static/media/icons.c656b8caa454ed19b9a2.ttf",
     "static/media/brand-icons.eot": "/car-advert/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/car-advert/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/car-advert/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/car-advert/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/car-advert/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
     "static/media/hero.jpg": "/car-advert/static/media/hero.0dd8411c52136ce61bb3.jpg",
     "static/media/brand-icons.woff": "/car-advert/static/media/brand-icons.cac87dc00c87a5d74711.woff",
     "static/media/brand-icons.woff2": "/car-advert/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
@@ -33,18 +36,18 @@
     "static/media/fa-credit-card.svg": "/car-advert/static/media/fa-credit-card.00ed82f6f72a61e98ee68ea7e0d79a77.svg",
     "index.html": "/car-advert/index.html",
     "static/media/close.svg": "/car-advert/static/media/close.da82c78f5d954c7c2282.svg",
-    "main.5eabeed7.css.map": "/car-advert/static/css/main.5eabeed7.css.map",
-    "main.f0634ffc.js.map": "/car-advert/static/js/main.f0634ffc.js.map",
-    "706.f4923999.chunk.css.map": "/car-advert/static/css/706.f4923999.chunk.css.map",
+    "main.39854d09.css.map": "/car-advert/static/css/main.39854d09.css.map",
+    "main.bdf5f28f.js.map": "/car-advert/static/js/main.bdf5f28f.js.map",
+    "706.29a0fe0b.chunk.css.map": "/car-advert/static/css/706.29a0fe0b.chunk.css.map",
     "706.c07899d1.chunk.js.map": "/car-advert/static/js/706.c07899d1.chunk.js.map",
-    "630.450af91e.chunk.css.map": "/car-advert/static/css/630.450af91e.chunk.css.map",
+    "630.255160d5.chunk.css.map": "/car-advert/static/css/630.255160d5.chunk.css.map",
     "630.56b868a8.chunk.js.map": "/car-advert/static/js/630.56b868a8.chunk.js.map",
-    "748.101a03de.chunk.css.map": "/car-advert/static/css/748.101a03de.chunk.css.map",
+    "748.28ca4c96.chunk.css.map": "/car-advert/static/css/748.28ca4c96.chunk.css.map",
     "748.32bcdb7d.chunk.js.map": "/car-advert/static/js/748.32bcdb7d.chunk.js.map",
     "757.06473a90.chunk.js.map": "/car-advert/static/js/757.06473a90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eabeed7.css",
-    "static/js/main.f0634ffc.js"
+    "static/css/main.39854d09.css",
+    "static/js/main.bdf5f28f.js"
   ]
 }

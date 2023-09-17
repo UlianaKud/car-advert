@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, NavLink } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Suspense } from "react";
 import TopNavigation from "../topNavigation/TopNavigation";
 import Footer from "../footer/Footer";

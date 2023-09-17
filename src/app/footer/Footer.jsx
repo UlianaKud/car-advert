@@ -9,7 +9,7 @@ const Footer = () => {
         <p>© 2023 | All Rights Reserved |&nbsp;</p>
         <p className={scss.footer__text}>Created by</p>
         <div>
-          <a href="https://github.com/UlianaKud" target="_blank">
+          <a href="https://github.com/UlianaKud" rel="noreferrer" target="_blank">
             <img src={githubLogo} alt="github" />
           </a>
         </div>

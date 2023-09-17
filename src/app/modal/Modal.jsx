@@ -2,9 +2,6 @@ import React from "react";
 import "./ModalStyles.scss";
 import scss from "./Modal.module.scss";
 import {
-  Button,
-  Header,
-  Icon,
   Modal as SemanticModal,
 } from "semantic-ui-react";
 import { getPartOfAdress, getPartsOfCOnditions } from "../utils/utils";
@@ -15,9 +12,7 @@ function Modal({
   make,
   model,
   year,
-  rentalCompany,
   type,
-  modal: carModel,
   engineSize,
   id,
   address: fullAddress,
@@ -50,7 +45,7 @@ function Modal({
       onOpen={() => setOpen(true)}
     >
       <SemanticModal.Content className={scss.modalCar__content}>
-        <img src={img} />
+        <img src={img} alt="Car"/>
         <div className={scss.carsItem__info}>
           <div className={scss.carsItem__description}>
             <span>{make} </span>

@@ -1,10 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Filter from "./Filter/Filter";
 import scss from "./Catalog.module.scss";
 import { fetchCarsThunk } from "../../redux/thunks";
 import CarsItem from "../renderComponents/CarsItem/CarsItem";
-import { Loader, Dimmer } from "semantic-ui-react";
+import { Loader } from "semantic-ui-react";
 import { clearCarsModel } from "../../redux/carsSlice";
 
 const Catalog = () => {
@@ -21,7 +20,7 @@ const Catalog = () => {
     return () => {
       dispatch(clearCarsModel());
     };
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     if (!initialized.current) {
@@ -29,7 +28,7 @@ const Catalog = () => {
       dispatch(fetchCarsThunk(pagination));
       setPagination({ page: pagination.page + 1, limit: pagination.limit });
     }
-  }, [pagination]);
+  }, [pagination, dispatch]);
 
   const renderCards = () => {
     return (

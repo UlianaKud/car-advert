@@ -1,0 +1,8 @@
+.dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  & > label,
+  & > div {
+    width: 100%;
+  }
+}

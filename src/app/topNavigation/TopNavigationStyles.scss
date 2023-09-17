@@ -1,0 +1,18 @@
+.ui.secondary.menu {
+  margin-top: 14px;
+  .topNavigation__menu_action {
+    .item {
+      color: #121417;
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: #0b44cd !important;
+        color: #fff !important;
+      }
+    }
+    .active.item {
+      background-color: #3470ff;
+      color: #fff;
+    }
+  }
+}

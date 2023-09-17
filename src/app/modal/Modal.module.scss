@@ -1,0 +1,107 @@
+.modalCar {
+  width: 541px !important;
+  border-radius: 24px !important;
+  img {
+    width: 100%;
+    margin-bottom: 14px;
+    border-radius: 14px;
+  }
+}
+
+.modalCar__content {
+  border-radius: 24px !important;
+  padding: 40px !important;
+}
+
+.carsItem__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.carsItem__model {
+  color: #3470ff;
+}
+
+.carsItem__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  & > div {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  & > div:last-child {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+}
+.carsItem__tag {
+  white-space: nowrap;
+  font-size: 12px;
+  color: rgba(18, 20, 23, 0.5);
+  &:last-child {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &:not(:last-child)::after {
+    content: " |";
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}
+
+.carsItem__car__description {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.carItem__rental_cond {
+  margin-bottom: 24px;
+}
+
+.carsItem__car__acc_func_caption,
+.carItem__rental_cond_caption {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.carItem__tooltips {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carItem__tooltip {
+  padding: 8px 14px;
+  border-radius: 35px;
+  background-color: #f9f9f9;
+  font-size: 12px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.carItem__tooltip_colored {
+  color: #3470ff;
+  font-weight: 600;
+}
+
+.carItem__action_rent {
+  a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3470ff;
+    padding: 12px 50px;
+    font-size: 14px;
+    border-radius: 12px;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #0b44cd;
+    }
+  }
+}

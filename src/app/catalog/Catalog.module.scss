@@ -1,0 +1,36 @@
+.catalog {
+  width: 100%;
+  min-height: calc(100% - 195px);
+  max-width: 1184px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px 29px;
+  position: relative;
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px 29px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+}
+
+.catalog__load_more {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #3470ff;
+  margin-bottom: 150px !important;
+  &:hover,
+  &:focus,
+  &:active {
+    color: #0b44cd;
+    cursor: pointer;
+  }
+}

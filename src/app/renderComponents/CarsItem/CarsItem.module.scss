@@ -1,0 +1,114 @@
+.carsItem {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 274px;
+  position: relative;
+  flex-basis: calc((100% - 87px) / 4);
+}
+.carsItem__img {
+  border-radius: 14px;
+  margin-bottom: 14px;
+  width: 274px;
+  height: 268px;
+  background-size: cover;
+  background-position: center;
+}
+.carsItem__icon {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  .isActive {
+    fill: #3470ff;
+    path {
+      stroke: #3470ff;
+    }
+  }
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: #3470ff;
+    path {
+      stroke: #3470ff;
+    }
+  }
+}
+
+.carsItem__icon_is_active {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  fill: #3470ff;
+  path {
+    stroke: #3470ff;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: #0b44cd;
+    path {
+      stroke: #0b44cd;
+    }
+  }
+}
+
+.carsItem__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.carsItem__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.carsItem__model {
+  color: #3470ff;
+}
+
+.carsItem__tags {
+  display: flex;
+  flex-wrap: wrap;
+  & > div:last-child {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+}
+.carsItem__tag {
+  white-space: nowrap;
+  font-size: 12px;
+  color: rgba(18, 20, 23, 0.5);
+  &:last-child {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &:not(:last-child)::after {
+    content: " |";
+    // border-right: 1px solid #d9d9d9;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  //   &:not(:first-child) {
+  //     padding-left: 6px;
+  //   }
+}
+.carsItem__button {
+  padding: 12px 95px;
+  background-color: #3470ff;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #0b44cd;
+    cursor: pointer;
+  }
+}

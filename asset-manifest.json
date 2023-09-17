@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/car-advert/static/css/main.5eabeed7.css",
-    "main.js": "/car-advert/static/js/main.b27f2db9.js",
+    "main.js": "/car-advert/static/js/main.a75641f7.js",
     "static/css/706.f4923999.chunk.css": "/car-advert/static/css/706.f4923999.chunk.css",
     "static/js/706.c07899d1.chunk.js": "/car-advert/static/js/706.c07899d1.chunk.js",
     "static/css/446.92fe6ca4.chunk.css": "/car-advert/static/css/446.92fe6ca4.chunk.css",
@@ -34,7 +34,7 @@
     "index.html": "/car-advert/index.html",
     "static/media/close.svg": "/car-advert/static/media/close.da82c78f5d954c7c2282.svg",
     "main.5eabeed7.css.map": "/car-advert/static/css/main.5eabeed7.css.map",
-    "main.b27f2db9.js.map": "/car-advert/static/js/main.b27f2db9.js.map",
+    "main.a75641f7.js.map": "/car-advert/static/js/main.a75641f7.js.map",
     "706.f4923999.chunk.css.map": "/car-advert/static/css/706.f4923999.chunk.css.map",
     "706.c07899d1.chunk.js.map": "/car-advert/static/js/706.c07899d1.chunk.js.map",
     "446.92fe6ca4.chunk.css.map": "/car-advert/static/css/446.92fe6ca4.chunk.css.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.5eabeed7.css",
-    "static/js/main.b27f2db9.js"
+    "static/js/main.a75641f7.js"
   ]
 }

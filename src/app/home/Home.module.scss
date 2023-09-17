@@ -26,6 +26,7 @@
   flex-wrap: wrap;
   h1,
   h2 {
+    font-family: Manrope;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -43,6 +44,7 @@
     background-color: #3470ff;
     padding: 20px 70px;
     font-size: 16px;
+    font-family: Manrope;
     border-radius: 12px;
     border: none;
 
@@ -66,6 +68,7 @@
   justify-content: center;
   h2 {
     font-size: 36px;
+    font-family: Manrope;
     margin-bottom: 50px;
   }
 
@@ -97,11 +100,13 @@
   text-align: center;
   margin-bottom: 10px;
   font-size: 14px;
+  font-family: Manrope;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
 .advantages__paragraph {
   font-size: 14px;
+  font-family: Manrope;
   line-height: calc(24 / 14);
   color: rgba(18, 20, 23, 0.5);
   text-align: justify;

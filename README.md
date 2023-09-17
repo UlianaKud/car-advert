@@ -1,3 +1,17 @@
+## About The Project
+
+Product Name - RentCars. 
+This project allows the user to view cars available for rent. The user can add the cars they like to their favorites, as well as contact the company to clarify rental details.It is also possible to view detailed information about the car by pressing a button "Learn more".
+
+
+### Built With
+* [![React][React.js]][React-url]
+* [![ReduxToolkit][ReduxToolkit.js]][Redux Toolkit-url]
+* [![Semantic UI React][SemanticUIReact.js]][SemanticUIReact-url]
+* [![ReactRouter][ReactRouter.js]][ReactRouter-url]
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +82,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[ReduxToolkit.js]: https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg
+[ReduxToolkit-url]: https://redux-toolkit.js.org/
+[SemanticUIReact.js]:https://react.semantic-ui.com/logo.png
+[SemanticUIReact-url]:https://react.semantic-ui.com/
+[ReactRouter-url]:https://reactrouter.com/en/main

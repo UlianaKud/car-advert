@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  font-family: Manrope;
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -42,6 +43,7 @@
 .carsItem__tag {
   white-space: nowrap;
   font-size: 12px;
+  font-family: Manrope;
   color: rgba(18, 20, 23, 0.5);
   &:last-child {
     text-overflow: ellipsis;
@@ -57,6 +59,7 @@
 
 .carsItem__car__description {
   font-size: 14px;
+  font-family: Manrope;
   margin-bottom: 24px;
 }
 
@@ -67,6 +70,7 @@
 .carsItem__car__acc_func_caption,
 .carItem__rental_cond_caption {
   font-size: 14px;
+  font-family: Manrope;
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -81,6 +85,7 @@
   border-radius: 35px;
   background-color: #f9f9f9;
   font-size: 12px;
+  font-family: Manrope;
   margin-right: 8px;
   margin-bottom: 8px;
 }
@@ -97,6 +102,7 @@
     background-color: #3470ff;
     padding: 12px 50px;
     font-size: 14px;
+    font-family: Manrope;
     border-radius: 12px;
     &:hover,
     &:focus,

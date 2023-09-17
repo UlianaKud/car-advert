@@ -5,12 +5,11 @@ This project allows the user to view cars available for rent. The user can add t
 
 
 ### Built With
-* [![React][React.js]][React-url]
-* [![ReduxToolkit][ReduxToolkit.js]][Redux Toolkit-url]
-* [![Semantic UI React][SemanticUIReact.js]][SemanticUIReact-url]
-* [![ReactRouter][ReactRouter.js]][ReactRouter-url]
-
-
+* React.js
+* Redux Toolkit
+* Redux
+* Semantic UI React
+* ReactRouter
 
 # Getting Started with Create React App
 
@@ -82,14 +81,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[ReduxToolkit.js]: https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg
-[ReduxToolkit-url]: https://redux-toolkit.js.org/
-[SemanticUIReact.js]:https://react.semantic-ui.com/logo.png
-[SemanticUIReact-url]:https://react.semantic-ui.com/
-[ReactRouter-url]:https://reactrouter.com/en/main
